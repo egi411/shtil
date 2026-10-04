@@ -49,7 +49,6 @@ main{position:relative;z-index:1}
 .h1{position:absolute;left:0;right:0;text-align:center;font-weight:900;text-transform:uppercase;line-height:.72;letter-spacing:.02em;color:#070b18;font-size:calc(var(--cap)*1.39);top:calc(var(--hor) - var(--cap));height:var(--cap);overflow:hidden}
 body:not(.nogl) .h1{color:transparent;pointer-events:none}
 .hero-meta{position:absolute;left:var(--pad);top:calc(var(--pad)*2 + 38px);display:flex;gap:14px;align-items:center;font-size:13px;color:var(--mut)}
-.hero-meta::before{content:"";width:34px;height:1px;background:var(--sig)}
 .hero-b{position:absolute;left:var(--pad);right:var(--pad);bottom:var(--pad);display:flex;justify-content:space-between;align-items:flex-end;gap:28px}
 .hero-l{max-width:520px}
 .hero-l h2{font-weight:600;font-size:clamp(26px,3vw,46px);line-height:.98;letter-spacing:-.04em;margin-bottom:22px}
@@ -75,7 +74,6 @@ body:not(.nogl) .h1{color:transparent;pointer-events:none}
 .cloud figcaption b{color:var(--sig);font-weight:500;margin-right:8px}
 .say-w{position:relative;z-index:2;width:min(980px,86vw);text-align:center}
 .lbl{display:inline-flex;gap:12px;align-items:center;font-size:13px;color:var(--mut);margin-bottom:clamp(18px,2.4vw,34px)}
-.lbl::before{content:"";width:34px;height:1px;background:var(--sig)}
 .say{font-weight:600;font-size:clamp(30px,4.7vw,78px);line-height:1.0;letter-spacing:-.045em;text-wrap:balance}
 .say .w{display:inline-block;opacity:.14;white-space:pre}
 .say .w.em{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;letter-spacing:-.02em;font-size:1.12em;line-height:.85}
